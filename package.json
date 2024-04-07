@@ -17,13 +17,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.11.0",
     "glob": "^10.3.3",
     "style-dictionary": "^3.8.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@tokens-studio/sd-transforms": "^0.15.2",
     "conventional-changelog-cli": "^4.1.0",
     "prettier": "^3.0.3",
     "release-it": "^17.1.1",
