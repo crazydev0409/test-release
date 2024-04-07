@@ -1,9 +1,0 @@
-{
-  "labels": {
-    "PR: Breaking Change": "breaking",
-    "PR: Enhancement": "enhancement",
-    "PR: Bug Fix": "bug",
-    "PR: Documentation": "documentation",
-    "PR: Internal": "internal"
-  }
-}

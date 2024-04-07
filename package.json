@@ -22,14 +22,7 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "^4.1.0",
-    "lerna-changelog": "^2.2.0",
     "prettier": "^3.0.3",
     "release-it": "^17.1.1"
-  },
-  "changelog": {
-    "labels": {
-      "feature": "New Feature",
-      "bug": "Bug Fix"
-    }
   }
 }
