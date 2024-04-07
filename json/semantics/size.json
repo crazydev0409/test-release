@@ -1,0 +1,14 @@
+{
+  "size": {
+    "input": {
+      "min-witdh": {
+        "value": "375",
+        "type": "sizing"
+      },
+      "box": {
+        "value": "{size.250}",
+        "type": "sizing"
+      }
+    }
+  }
+}

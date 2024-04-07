@@ -1,0 +1,632 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 20 Mar 2024 13:37:09 GMT
+ */
+
+:root {
+  --my-color-text-primary: #eeeeee;
+  --my-color-text-subtle: #b4b4b4;
+  --my-color-text-action: #fff;
+  --my-color-text-nonessential: #7b7b7b;
+  --my-color-text-help-deprecate: #b4b4b4;
+  --my-color-text-error-deprecate: #ec6142;
+  --my-color-icon-default: #000;
+  --my-color-icon-subtle: #484848;
+  --my-color-ui-critical: #ec6142;
+  --my-color-ui-background-critical: #500f1c;
+  --my-color-ui-background-warning: #362b00;
+  --my-color-ui-background-informative: #003362;
+  --my-color-ui-background-success: #113b29;
+  --my-color-ui-background-unknown: #2a2a2a;
+  --my-color-ui-success: #3dd68c;
+  --my-color-ui-warning: #f5e147;
+  --my-color-ui-informative: #70b8ff;
+  --my-color-ui-unknown: #b4b4b4;
+  --my-color-ui-primary: #fff;
+  --my-color-action-background-primary: #fff;
+  --my-color-action-background-primary-hover: #eeeeee;
+  --my-color-action-background-primary-disabled: #2a2a2a;
+  --my-color-action-background-primary-active: #7b7b7b;
+  --my-color-action-background-basic: #000;
+  --my-color-action-background-basic-hover: #191919;
+  --my-color-action-background-basic-disabled: #111111;
+  --my-color-action-background-destructive: #e5484d;
+  --my-color-action-background-destructive-hover: #ec5d5e;
+  --my-color-action-background-destructive-disabled: #201314;
+  --my-color-action-background-destructive-active: #b54548;
+  --my-color-action-border-basic: #484848;
+  --my-color-action-border-basic-hover: #606060;
+  --my-color-action-content-primary: #000;
+  --my-color-action-content-basic: #fff;
+  --my-color-action-content-disabled: #6e6e6e;
+  --my-color-app-background-primary: #191919;
+  --my-color-app-background-secondary: #111111;
+  --my-color-container-border: #484848;
+  --my-color-container-separator: #3a3a3a;
+  --my-color-container-background-primary: #191919;
+  --my-color-container-background-secondary: #191919;
+  --my-color-input-background: #191919;
+  --my-color-input-background-checked: #fff;
+  --my-color-input-background-disabled: #222222;
+  --my-color-input-border: #606060;
+  --my-color-input-border-hover: #7b7b7b;
+  --my-color-input-border-focus: #fff;
+  --my-color-input-border-checked: #fff;
+  --my-color-input-focus-ring: #d3ddff;
+  --my-color-input-border-error: #ec6142;
+  --my-color-input-border-hover-error: #ff977d;
+  --my-color-input-focus-ring-error: #500f1c;
+  --my-color-input-error-ring: #ec6142; /* Border around summary of error messages at top op form */
+  --my-color-input-text-label: #eeeeee;
+  --my-color-input-text-message: #ec6142;
+  --my-color-input-text-input: #eeeeee;
+  --my-color-input-text-help: #b4b4b4;
+  --my-color-input-text-optional: #b4b4b4;
+  --my-color-input-text-placeholder: #7b7b7b;
+  --my-color-input-text-disabled: #6e6e6e;
+  --my-color-input-text-placeholder-focus: #606060;
+  --my-color-input-range-track: #484848;
+  --my-color-input-range-thumb: #0437ff;
+  --my-color-input-icon: #000;
+  --my-color-cobalt-100: #fafbff;
+  --my-color-cobalt-200: #f7f9ff;
+  --my-color-cobalt-300: #eff2ff;
+  --my-color-cobalt-400: #e1e8ff;
+  --my-color-cobalt-500: #d3ddff;
+  --my-color-cobalt-600: #c2d0ff;
+  --my-color-cobalt-700: #a8bcff;
+  --my-color-cobalt-800: #86a2ff;
+  --my-color-cobalt-900: #0437ff;
+  --my-color-cobalt-1000: #0031f9;
+  --my-color-cobalt-1100: #001ecf;
+  --my-color-cobalt-1200: #000e7b;
+  --my-color-gray-100: #111111;
+  --my-color-gray-200: #191919;
+  --my-color-gray-300: #222222;
+  --my-color-gray-400: #2a2a2a;
+  --my-color-gray-500: #313131;
+  --my-color-gray-600: #3a3a3a;
+  --my-color-gray-700: #484848;
+  --my-color-gray-800: #606060;
+  --my-color-gray-900: #6e6e6e;
+  --my-color-gray-1000: #7b7b7b;
+  --my-color-gray-1100: #b4b4b4;
+  --my-color-gray-1200: #eeeeee;
+  --my-color-gray-alpha-100: #00000000;
+  --my-color-gray-alpha-200: #ffffff09;
+  --my-color-gray-alpha-300: #ffffff12;
+  --my-color-gray-alpha-400: #ffffff1b;
+  --my-color-gray-alpha-500: #ffffff22;
+  --my-color-gray-alpha-600: #ffffff2c;
+  --my-color-gray-alpha-700: #ffffff3b;
+  --my-color-gray-alpha-800: #ffffff55;
+  --my-color-gray-alpha-900: #ffffff64;
+  --my-color-gray-alpha-1000: #ffffff72;
+  --my-color-gray-alpha-1100: #ffffffaf;
+  --my-color-gray-alpha-1200: #ffffffed;
+  --my-color-tomato-100: #181111;
+  --my-color-tomato-200: #1f1513;
+  --my-color-tomato-300: #391714;
+  --my-color-tomato-400: #4e1511;
+  --my-color-tomato-500: #5e1c16;
+  --my-color-tomato-600: #6e2920;
+  --my-color-tomato-700: #853a2d;
+  --my-color-tomato-800: #ac4d39;
+  --my-color-tomato-900: #e54d2e;
+  --my-color-tomato-1000: #ec6142;
+  --my-color-tomato-1100: #ff977d;
+  --my-color-tomato-1200: #fbd3cb;
+  --my-color-red-100: #191111;
+  --my-color-red-200: #201314;
+  --my-color-red-300: #3b1219;
+  --my-color-red-400: #500f1c;
+  --my-color-red-500: #611623;
+  --my-color-red-600: #72232d;
+  --my-color-red-700: #8c333a;
+  --my-color-red-800: #b54548;
+  --my-color-red-900: #e5484d;
+  --my-color-red-1000: #ec5d5e;
+  --my-color-red-1100: #ff9592;
+  --my-color-red-1200: #ffd1d9;
+  --my-color-ruby-100: #191113;
+  --my-color-ruby-200: #1e1517;
+  --my-color-ruby-300: #3a141e;
+  --my-color-ruby-400: #4e1325;
+  --my-color-ruby-500: #5e1a2e;
+  --my-color-ruby-600: #6f2539;
+  --my-color-ruby-700: #883447;
+  --my-color-ruby-800: #b3445a;
+  --my-color-ruby-900: #e54666;
+  --my-color-ruby-1000: #ec5a72;
+  --my-color-ruby-1100: #ff949d;
+  --my-color-ruby-1200: #fed2e1;
+  --my-color-crimson-100: #191114;
+  --my-color-crimson-200: #201318;
+  --my-color-crimson-300: #381525;
+  --my-color-crimson-400: #4d122f;
+  --my-color-crimson-500: #5c1839;
+  --my-color-crimson-600: #6d2545;
+  --my-color-crimson-700: #873356;
+  --my-color-crimson-800: #b0436e;
+  --my-color-crimson-900: #e93d82;
+  --my-color-crimson-1000: #ee518a;
+  --my-color-crimson-1100: #ff92ad;
+  --my-color-crimson-1200: #fdd3e8;
+  --my-color-pink-100: #191117;
+  --my-color-pink-200: #21121d;
+  --my-color-pink-300: #37172f;
+  --my-color-pink-400: #4b143d;
+  --my-color-pink-500: #591c47;
+  --my-color-pink-600: #692955;
+  --my-color-pink-700: #833869;
+  --my-color-pink-800: #a84885;
+  --my-color-pink-900: #d6409f;
+  --my-color-pink-1000: #de51a8;
+  --my-color-pink-1100: #ff8dcc;
+  --my-color-pink-1200: #fdd1ea;
+  --my-color-plum-100: #181118;
+  --my-color-plum-200: #201320;
+  --my-color-plum-300: #351a35;
+  --my-color-plum-400: #451d47;
+  --my-color-plum-500: #512454;
+  --my-color-plum-600: #5e3061;
+  --my-color-plum-700: #734079;
+  --my-color-plum-800: #92549c;
+  --my-color-plum-900: #ab4aba;
+  --my-color-plum-1000: #b658c4;
+  --my-color-plum-1100: #e796f3;
+  --my-color-plum-1200: #f4d4f4;
+  --my-color-purple-100: #18111b;
+  --my-color-purple-200: #1e1523;
+  --my-color-purple-300: #301c3b;
+  --my-color-purple-400: #3d224e;
+  --my-color-purple-500: #48295c;
+  --my-color-purple-600: #54346b;
+  --my-color-purple-700: #664282;
+  --my-color-purple-800: #8457aa;
+  --my-color-purple-900: #8e4ec6;
+  --my-color-purple-1000: #9a5cd0;
+  --my-color-purple-1100: #d19dff;
+  --my-color-purple-1200: #ecd9fa;
+  --my-color-violet-100: #14121f;
+  --my-color-violet-200: #1b1525;
+  --my-color-violet-300: #291f43;
+  --my-color-violet-400: #33255b;
+  --my-color-violet-500: #3c2e69;
+  --my-color-violet-600: #473876;
+  --my-color-violet-700: #56468b;
+  --my-color-violet-800: #6958ad;
+  --my-color-violet-900: #6e56cf;
+  --my-color-violet-1000: #7d66d9;
+  --my-color-violet-1100: #baa7ff;
+  --my-color-violet-1200: #e2ddfe;
+  --my-color-iris-100: #13131e;
+  --my-color-iris-200: #171625;
+  --my-color-iris-300: #202248;
+  --my-color-iris-400: #262a65;
+  --my-color-iris-500: #303374;
+  --my-color-iris-600: #3d3e82;
+  --my-color-iris-700: #4a4a95;
+  --my-color-iris-800: #5958b1;
+  --my-color-iris-900: #5b5bd6;
+  --my-color-iris-1000: #6e6ade;
+  --my-color-iris-1100: #b1a9ff;
+  --my-color-iris-1200: #e0dffe;
+  --my-color-indigo-100: #11131f;
+  --my-color-indigo-200: #141726;
+  --my-color-indigo-300: #182449;
+  --my-color-indigo-400: #1d2e62;
+  --my-color-indigo-500: #253974;
+  --my-color-indigo-600: #304384;
+  --my-color-indigo-700: #3a4f97;
+  --my-color-indigo-800: #435db1;
+  --my-color-indigo-900: #3e63dd;
+  --my-color-indigo-1000: #5472e4;
+  --my-color-indigo-1100: #9eb1ff;
+  --my-color-indigo-1200: #d6e1ff;
+  --my-color-blue-100: #0d1520;
+  --my-color-blue-200: #111927;
+  --my-color-blue-300: #0d2847;
+  --my-color-blue-400: #003362;
+  --my-color-blue-500: #004074;
+  --my-color-blue-600: #104d87;
+  --my-color-blue-700: #205d9e;
+  --my-color-blue-800: #2870bd;
+  --my-color-blue-900: #0090ff;
+  --my-color-blue-1000: #3b9eff;
+  --my-color-blue-1100: #70b8ff;
+  --my-color-blue-1200: #c2e6ff;
+  --my-color-cyan-100: #0b161a;
+  --my-color-cyan-200: #101b20;
+  --my-color-cyan-300: #082c36;
+  --my-color-cyan-400: #003848;
+  --my-color-cyan-500: #004558;
+  --my-color-cyan-600: #045468;
+  --my-color-cyan-700: #12677e;
+  --my-color-cyan-800: #11809c;
+  --my-color-cyan-900: #00a2c7;
+  --my-color-cyan-1000: #23afd0;
+  --my-color-cyan-1100: #4ccce6;
+  --my-color-cyan-1200: #b6ecf7;
+  --my-color-teal-100: #0d1514;
+  --my-color-teal-200: #111c1b;
+  --my-color-teal-300: #0d2d2a;
+  --my-color-teal-400: #023b37;
+  --my-color-teal-500: #084843;
+  --my-color-teal-600: #145750;
+  --my-color-teal-700: #1c6961;
+  --my-color-teal-800: #207e73;
+  --my-color-teal-900: #12a594;
+  --my-color-teal-1000: #0eb39e;
+  --my-color-teal-1100: #0bd8b6;
+  --my-color-teal-1200: #adf0dd;
+  --my-color-jade-100: #0d1512;
+  --my-color-jade-200: #121c18;
+  --my-color-jade-300: #0f2e22;
+  --my-color-jade-400: #0b3b2c;
+  --my-color-jade-500: #114837;
+  --my-color-jade-600: #1b5745;
+  --my-color-jade-700: #246854;
+  --my-color-jade-800: #2a7e68;
+  --my-color-jade-900: #29a383;
+  --my-color-jade-1000: #27b08b;
+  --my-color-jade-1100: #1fd8a4;
+  --my-color-jade-1200: #adf0d4;
+  --my-color-green-100: #0e1512;
+  --my-color-green-200: #121b17;
+  --my-color-green-300: #132d21;
+  --my-color-green-400: #113b29;
+  --my-color-green-500: #174933;
+  --my-color-green-600: #20573e;
+  --my-color-green-700: #28684a;
+  --my-color-green-800: #2f7c57;
+  --my-color-green-900: #30a46c;
+  --my-color-green-1000: #33b074;
+  --my-color-green-1100: #3dd68c;
+  --my-color-green-1200: #b1f1cb;
+  --my-color-grass-100: #0e1511;
+  --my-color-grass-200: #141a15;
+  --my-color-grass-300: #1b2a1e;
+  --my-color-grass-400: #1d3a24;
+  --my-color-grass-500: #25482d;
+  --my-color-grass-600: #2d5736;
+  --my-color-grass-700: #366740;
+  --my-color-grass-800: #3e7949;
+  --my-color-grass-900: #46a758;
+  --my-color-grass-1000: #53b365;
+  --my-color-grass-1100: #71d083;
+  --my-color-grass-1200: #c2f0c2;
+  --my-color-orange-100: #17120e;
+  --my-color-orange-200: #1e160f;
+  --my-color-orange-300: #331e0b;
+  --my-color-orange-400: #462100;
+  --my-color-orange-500: #562800;
+  --my-color-orange-600: #66350c;
+  --my-color-orange-700: #7e451d;
+  --my-color-orange-800: #a35829;
+  --my-color-orange-900: #f76b15;
+  --my-color-orange-1000: #ff801f;
+  --my-color-orange-1100: #ffa057;
+  --my-color-orange-1200: #ffe0c2;
+  --my-color-amber-100: #16120c;
+  --my-color-amber-200: #1d180f;
+  --my-color-amber-300: #302008;
+  --my-color-amber-400: #3f2700;
+  --my-color-amber-500: #4d3000;
+  --my-color-amber-600: #5c3d05;
+  --my-color-amber-700: #714f19;
+  --my-color-amber-800: #8f6424;
+  --my-color-amber-900: #ffc53d;
+  --my-color-amber-1000: #ffd60a;
+  --my-color-amber-1100: #ffca16;
+  --my-color-amber-1200: #ffe7b3;
+  --my-color-yellow-100: #14120b;
+  --my-color-yellow-200: #1b180f;
+  --my-color-yellow-300: #2d2305;
+  --my-color-yellow-400: #362b00;
+  --my-color-yellow-500: #433500;
+  --my-color-yellow-600: #524202;
+  --my-color-yellow-700: #665417;
+  --my-color-yellow-800: #836a21;
+  --my-color-yellow-900: #ffe629;
+  --my-color-yellow-1000: #ffff57;
+  --my-color-yellow-1100: #f5e147;
+  --my-color-yellow-1200: #f6eeb4;
+  --my-color-lime-100: #11130c;
+  --my-color-lime-200: #151a10;
+  --my-color-lime-300: #1f2917;
+  --my-color-lime-400: #29371d;
+  --my-color-lime-500: #334423;
+  --my-color-lime-600: #3d522a;
+  --my-color-lime-700: #496231;
+  --my-color-lime-800: #577538;
+  --my-color-lime-900: #bdee63;
+  --my-color-lime-1000: #d4ff70;
+  --my-color-lime-1100: #bde56c;
+  --my-color-lime-1200: #e3f7ba;
+  --my-color-mint-100: #0e1515;
+  --my-color-mint-200: #0f1b1b;
+  --my-color-mint-300: #092c2b;
+  --my-color-mint-400: #003a38;
+  --my-color-mint-500: #004744;
+  --my-color-mint-600: #105650;
+  --my-color-mint-700: #1e685f;
+  --my-color-mint-800: #277f70;
+  --my-color-mint-900: #86ead4;
+  --my-color-mint-1000: #a8f5e5;
+  --my-color-mint-1100: #58d5ba;
+  --my-color-mint-1200: #c4f5e1;
+  --my-color-sky-100: #0d141f;
+  --my-color-sky-200: #111a27;
+  --my-color-sky-300: #112840;
+  --my-color-sky-400: #113555;
+  --my-color-sky-500: #154467;
+  --my-color-sky-600: #1b537b;
+  --my-color-sky-700: #1f6692;
+  --my-color-sky-800: #197cae;
+  --my-color-sky-900: #7ce2fe;
+  --my-color-sky-1000: #a8eeff;
+  --my-color-sky-1100: #75c7f0;
+  --my-color-sky-1200: #c2f3ff;
+  --my-color-lo-contrast: #000;
+  --my-color-hi-contrast: #fff;
+  --my-color-gradient-dark: linear-gradient(
+    90deg,
+    #000 0%,
+    #7b7b7b 100%
+  ); /* Primary button hover  */
+  --my-color-gradient-blue: linear-gradient(90deg, #007bb3 0%, #0089c7 100%);
+  --my-color-gradient-gray: linear-gradient(
+    90deg,
+    #222222 0%,
+    #2a2a2a 100%
+  ); /* on-dark button hover states */
+  --my-color-base-white-depercate: #fff;
+  --my-color-base-black-depercate: #000;
+  --my-color-hagerty-default: #007bb3;
+  --my-color-hagerty-bright: #0089c7;
+  --my-color-hagerty-light: #eaf9ff;
+  --my-color-overlay-black-100: hsla(0, 0%, 0%, 0.012);
+  --my-color-overlay-black-200: hsla(0, 0%, 0%, 0.027);
+  --my-color-overlay-black-300: hsla(0, 0%, 0%, 0.047);
+  --my-color-overlay-black-400: hsla(0, 0%, 0%, 0.071);
+  --my-color-overlay-black-500: hsla(0, 0%, 0%, 0.09);
+  --my-color-overlay-black-600: hsla(0, 0%, 0%, 0.114);
+  --my-color-overlay-black-700: hsla(0, 0%, 0%, 0.141);
+  --my-color-overlay-black-800: hsla(0, 0%, 0%, 0.22);
+  --my-color-overlay-black-900: hsla(0, 0%, 0%, 0.439);
+  --my-color-overlay-black-1000: hsla(0, 0%, 0%, 0.478);
+  --my-color-overlay-black-1100: hsla(0, 0%, 0%, 0.565);
+  --my-color-overlay-black-1200: hsla(0, 0%, 0%, 0.91);
+  --my-color-overlay-white-100: hsla(0, 0%, 100%, 0);
+  --my-color-overlay-white-200: hsla(0, 0%, 100%, 0.013);
+  --my-color-overlay-white-300: hsla(0, 0%, 100%, 0.034);
+  --my-color-overlay-white-400: hsla(0, 0%, 100%, 0.056);
+  --my-color-overlay-white-500: hsla(0, 0%, 100%, 0.086);
+  --my-color-overlay-white-600: hsla(0, 0%, 100%, 0.124);
+  --my-color-overlay-white-700: hsla(0, 0%, 100%, 0.176);
+  --my-color-overlay-white-800: hsla(0, 0%, 100%, 0.249);
+  --my-color-overlay-white-900: hsla(0, 0%, 100%, 0.386);
+  --my-color-overlay-white-1000: hsla(0, 0%, 100%, 0.446);
+  --my-color-overlay-white-1100: hsla(0, 0%, 100%, 0.592);
+  --my-color-overlay-white-1200: hsla(0, 0%, 100%, 0.923);
+  --my-border-width-100: 1px;
+  --my-border-width-150: 1.5px;
+  --my-border-width-200: 2px;
+  --my-border-width-error-ring: 1.5px; /* Border around summary of error messages at top op form */
+  --my-border-radius-100: 3px;
+  --my-border-radius-150: 6px;
+  --my-border-radius-200: 8px;
+  --my-border-radius-250: 10px;
+  --my-border-radius-300: 16px;
+  --my-border-radius-400: 32px;
+  --my-border-radius-circle-deprecate: 1000px; /* Circles 50% */
+  --my-border-radius-full: 999px;
+  --my-border-radius-none: 0px; /* No border radius */
+  --my-border-radius-input: 8px;
+  --my-border-radius-input-full: 999px;
+  --my-border-radius-input-rounded: 3px;
+  --my-font-size-75: 12px; /* 12px / 0.75rem */
+  --my-font-size-80: 13px; /* 13px / 0.813rem */
+  --my-font-size-87: 14px; /* 14px / 0.875rem */
+  --my-font-size-94: 15px; /* 15px / 0.938rem */
+  --my-font-size-100: 16px; /* 16px / 1rem */
+  --my-font-size-112: 18px; /* 18px / 1.125rem */
+  --my-font-size-125: 20px; /* 20px / 1.25rem */
+  --my-font-size-140: 22px; /* 22px / 1.4rem (round to) */
+  --my-font-size-150: 24px; /* 24px / 1.5rem */
+  --my-font-size-175: 28px; /* 28px / 1.75rem */
+  --my-font-size-200: 32px; /* 32px / 2rem */
+  --my-font-size-225: 36px; /* 36px / 2.25rem */
+  --my-font-size-250: 40px; /* 40px / 2.5rem */
+  --my-font-size-300: 16px * 3; /* 48px / 3rem */
+  --my-font-size-350: 56px; /* 56px / 3.5rem */
+  --my-font-size-400: 64px; /* 64px / 4rem */
+  --my-font-size-base: 16px; /* Base 16px / 1 rem */
+  --my-font-size-input-input: 14px;
+  --my-font-size-input-label: 13px;
+  --my-font-size-input-message: 12px;
+  --my-font-size-input-help: 13px;
+  --my-font-size-input-optional: 12px;
+  --my-font-size-input-legend: 13px;
+  --my-font-size-input-option: 14px;
+  --my-font-family-brand: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  --my-font-family-sans-serif: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-fallback: "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-input: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-label: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-message: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-help: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-optional: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-legend: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-family-input-option: Inter, "Helvetica Neue", Arial, sans-serif;
+  --my-font-weight-regular: 400; /* 450 Variable Font */
+  --my-font-weight-medium: 500; /* 550 Variable font */
+  --my-font-weight-semi-bold: Semi Bold;
+  --my-font-weight-bold: 700; /* 700 */
+  --my-font-weight-extended-medium-deprecate: Extended Medium; /* 500 */
+  --my-font-weight-extended-regular-deprecate: Extended Regular; /* 400 */
+  --my-font-weight-extended-bold-deprecate: Extended Bold; /* 700 */
+  --my-font-weight-input-input: 400;
+  --my-font-weight-input-label: 500;
+  --my-font-weight-input-message: 400;
+  --my-font-weight-input-help: 400;
+  --my-font-weight-input-optional: 400;
+  --my-font-weight-input-legend: 500;
+  --my-font-weight-input-option: 400;
+  --my-text-case-capitalize: capitalize; /* Capitalize */
+  --my-text-decoration-underline: underline;
+  --my-text-decoration-none: none;
+  --my-text-heading-level-100-small: 400 36px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif; /* Heading */
+  --my-text-heading-level-100-large: 400 40px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-200-small: 400 32px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-200-large: 400 36px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-300-small: 400 28px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-300-large: 400 32px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-400-small: 400 24px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-400-large: 400 28px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-heading-level-500: 400 24px/1.1 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-heading-level-600: 400 20px/1.1 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-display-level-100-small: 400 56px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-display-level-100-large: 400 64px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-display-level-200-small: 400 16px * 3/1.1 "Helvetica Neue",
+    Helvetica, Aria, sans-serif;
+  --my-text-display-level-200-large: 400 56px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-display-level-300-small: 400 40px/1.1 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-display-level-300-large: 400 16px * 3/1.1 "Helvetica Neue",
+    Helvetica, Aria, sans-serif;
+  --my-text-lead-level-100-small: 400 24px/1.25 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-lead-level-100-large: 400 28px/1.25 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-lead-level-200-small: 400 20px/1.25 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-lead-level-200-large: 400 24px/1.25 "Helvetica Neue", Helvetica,
+    Aria, sans-serif;
+  --my-text-lead-level-300: 400 20px/1.25 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-body-level-100: 400 20px/1.33 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-body-level-200: 400 18px/1.33 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-body-level-300: 400 16px/1.33 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-text-body-level-400: 400 15px/1.33 "Helvetica Neue", Helvetica, Aria,
+    sans-serif;
+  --my-line-height-tight: 1.1; /* 1.1 */
+  --my-line-height-snug: 1; /* 1 */
+  --my-line-height-extra: 1.125; /* 1.2 */
+  --my-line-height-standard: 1.25; /* 1.25 */
+  --my-line-height-loose: 1.33; /* 1.33 */
+  --my-line-height-input-input: 1.33;
+  --my-line-height-input-label: 1.125;
+  --my-line-height-input-message: 1.25;
+  --my-line-height-input-help: 1.125;
+  --my-line-height-input-optional: 1.125;
+  --my-line-height-input-option: 1.33;
+  --my-line-height-input-legend: 1.125;
+  --my-size-12: 1px;
+  --my-size-20: 1.5px;
+  --my-size-25: 2px;
+  --my-size-35: 3px;
+  --my-size-50: 4px;
+  --my-size-65: 5px;
+  --my-size-100: 8px;
+  --my-size-150: 12px;
+  --my-size-200: 16px;
+  --my-size-225: 18px;
+  --my-size-250: 20px;
+  --my-size-275: 22px;
+  --my-size-300: 24px;
+  --my-size-350: 28px;
+  --my-size-400: 32px;
+  --my-size-450: 36px;
+  --my-size-500: 40px;
+  --my-size-550: 44px;
+  --my-size-600: 48px;
+  --my-size-700: 56px;
+  --my-size-base: 8px;
+  --my-size-border-input-focus: 1.5px;
+  --my-size-border-input-focus-checked: 1px;
+  --my-size-border-input-checked: 1.5px;
+  --my-size-border-input: 1px;
+  --my-size-border-input-hover: 1px;
+  --my-size-border-focus-ring: 5px;
+  --my-size-border-input-error-focus: 1.5px; /* Summary */
+  --my-size-border-focus-ring-error: 5px;
+  --my-size-border-input-error: 1px;
+  --my-size-input-min-witdh: 375px;
+  --my-size-input-box: 20px;
+  --my-space-0: 0px;
+  --my-space-25: 2px;
+  --my-space-50: 4px;
+  --my-space-100: 8px;
+  --my-space-150: 12px;
+  --my-space-200: 16px;
+  --my-space-250: 20px;
+  --my-space-300: 24px;
+  --my-space-350: 28px;
+  --my-space-400: 32px;
+  --my-space-500: 40px;
+  --my-space-600: 48px;
+  --my-space-700: 56px;
+  --my-space-800: 64px;
+  --my-space-900: 72px;
+  --my-space-1000: 80px;
+  --my-space-1100: 88px;
+  --my-space-1200: 96px;
+  --my-space-base: 16px; /* 1rem */
+  --my-space-input-outer-gap: 8px;
+  --my-space-input-outer-padding-bottom: 24px;
+  --my-space-input-wrapper-gap: 8px;
+  --my-space-input-input-gap: 0px;
+  --my-space-input-messages-gap: 8px;
+  --my-space-input-label-gap: 4px;
+  --my-space-input-message-gap: 4px;
+  --my-space-input-input-padding-top: 8px;
+  --my-space-input-input-padding-bottom: 8px;
+  --my-space-input-input-padding-left: 12px;
+  --my-space-input-input-padding-right: 12px;
+  --my-space-input-input: 8px, 12px, 8px, 12px;
+  --my-space-input-options-gap: 12px;
+  --my-space-input-legend-gap: 8px;
+  --my-space-input-fieldset-gap: 8px;
+  --my-elevation-100: 0 1px 2px 0 hsla(0, 0%, 0%, 0.047);
+  --my-elevation-200: 0 1px 3px 0 hsla(0, 0%, 0%, 0.09),
+    0 1px 2px 0 hsla(0, 0%, 0%, 0.047);
+  --my-elevation-300: 0 4px 8px -2px hsla(0, 0%, 0%, 0.071),
+    0 2px 4px -2px hsla(0, 0%, 0%, 0.027);
+  --my-elevation-400: 0 12px 16px -4px hsla(0, 0%, 0%, 0.071),
+    0 4px 6px -2px hsla(0, 0%, 0%, 0.027);
+  --my-elevation-500: 0 20px 24px -4px hsla(0, 0%, 0%, 0.071),
+    0 8px 8px -4px hsla(0, 0%, 0%, 0.027);
+  --my-elevation-600: 0 24px 48px -12px hsla(0, 0%, 0%, 0.141);
+  --my-elevation-700: 0 32px 64px -12px hsla(0, 0%, 0%, 0.141);
+  --my-elevation-ui-focus: 0 0 0 3px #3a4f97;
+  --my-elevation-ui-error-focus: 0 0 0 3px #72232d;
+  --my-elevation-action-focus: 0 0 0 2px #000, 0 0 0 4px #435db1;
+  --my-opacity-0: 0;
+  --my-box-shadow-input-hover: 0 0 0 1px #7b7b7b;
+  --my-box-shadow-input: 0 0 0 1px #606060;
+  --my-box-shadow-input-checked: 0 0 0 1.5px #fff;
+  --my-box-shadow-input-error: 0 0 0 1px #ec6142;
+  --my-box-shadow-input-hover-error: 0 0 0 1px #ff977d;
+  --my-box-shadow-input-focus-checked: 0 0 0 1.5px #fff, 0 0 0 5px #d3ddff;
+  --my-box-shadow-input-focus: 0 0 0 1px #fff, 0 0 0 5px #d3ddff;
+  --my-box-shadow-input-pressed: 0 0 0 1px #7b7b7b, 0 0 0 5px #d3ddff;
+  --my-box-shadow-input-focus-error: 0 0 0 1.5px #ec6142, 0 0 0 5px #500f1c;
+}

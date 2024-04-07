@@ -1,0 +1,35 @@
+{
+  "name": "sd-file-splitting-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build-tokens.cjs",
+    "release": "release-it",
+    "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornbug90/test-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.11.0",
+    "glob": "^10.3.3",
+    "style-dictionary": "^3.8.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^4.1.0",
+    "lerna-changelog": "^2.2.0",
+    "prettier": "^3.0.3",
+    "release-it": "^17.1.1"
+  },
+  "changelog": {
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix"
+    }
+  }
+}

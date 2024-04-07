@@ -1,0 +1,66 @@
+{
+  "size": {
+    "border": {
+      "input-focus": {
+        "value": "{size.20}",
+        "type": "sizing"
+      },
+      "input-focus-checked": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
+      "input-checked": {
+        "value": "{size.20}",
+        "type": "sizing"
+      },
+      "input": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
+      "input-hover": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
+      "focus-ring": {
+        "value": "{size.65}",
+        "type": "sizing"
+      },
+      "input-error-focus": {
+        "value": "{size.20}",
+        "type": "sizing",
+        "description": "Summary"
+      },
+      "focus-ring-error": {
+        "value": "{size.65}",
+        "type": "sizing"
+      },
+      "input-error": {
+        "value": "{size.12}",
+        "type": "sizing"
+      }
+    }
+  },
+  "border": {
+    "radius": {
+      "input": {
+        "value": "{border.radius.200}",
+        "type": "borderRadius"
+      },
+      "input-full": {
+        "value": "{border.radius.full}",
+        "type": "borderRadius"
+      },
+      "input-rounded": {
+        "value": "{border.radius.100}",
+        "type": "borderRadius"
+      }
+    },
+    "width": {
+      "error-ring": {
+        "value": "{border.width.150}",
+        "type": "borderWidth",
+        "description": "Border around summary of error messages at top op form"
+      }
+    }
+  }
+}

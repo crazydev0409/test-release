@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "primitives",
+    "light",
+    "dark",
+    "semantics/color",
+    "semantics/color attendee",
+    "semantics/color mutable",
+    "semantics/border",
+    "semantics/shadow",
+    "semantics/text",
+    "semantics/space",
+    "semantics/size",
+    "semantics/typography"
+  ]
+}

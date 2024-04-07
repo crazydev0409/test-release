@@ -1,0 +1,33 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Changelog
+        run: npm run changelog
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'thornbug90'
+          git config --global user.email 'crazydev0409@gmail.com'
+          git add CHANGELOG.md
+          git commit -m "Update Changelog"
+          git push

@@ -1,0 +1,66 @@
+{
+  "space": {
+    "input": {
+      "outer-gap": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "outer-padding-bottom": {
+        "value": "{space.300}",
+        "type": "spacing"
+      },
+      "wrapper-gap": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "input-gap": {
+        "value": "{space.0}",
+        "type": "spacing"
+      },
+      "messages-gap": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "label-gap": {
+        "value": "{space.50}",
+        "type": "spacing"
+      },
+      "message-gap": {
+        "value": "{space.50}",
+        "type": "spacing"
+      },
+      "input-padding-top": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "input-padding-bottom": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "input-padding-left": {
+        "value": "{space.150}",
+        "type": "spacing"
+      },
+      "input-padding-right": {
+        "value": "{space.150}",
+        "type": "spacing"
+      },
+      "input": {
+        "value": "{space.input.input-padding-top}, {space.input.input-padding-right}, {space.input.input-padding-bottom}, {space.input.input-padding-left}",
+        "type": "spacing"
+      },
+      "options-gap": {
+        "value": "{space.150}",
+        "type": "spacing"
+      },
+      "legend-gap": {
+        "value": "{space.100}",
+        "type": "spacing"
+      },
+      "fieldset-gap": {
+        "value": "{space.100}",
+        "type": "spacing"
+      }
+    }
+  }
+}
