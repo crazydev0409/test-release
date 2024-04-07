@@ -7,6 +7,7 @@
 * ?????????????? ([37be30f](https://github.com/thornbug90/test-release/commit/37be30f7cfe60c5d78f10d0ca7cd8636e6780a10))
 * aaaaaa ([cb2f3ef](https://github.com/thornbug90/test-release/commit/cb2f3ef30a08eb680aaeb371787f3e5206d65086))
 * abffjsdlgks ([7338d67](https://github.com/thornbug90/test-release/commit/7338d67d54dad0b6339cf8769dcd915efc5006b7))
+* almost ready ([e3cfcf9](https://github.com/thornbug90/test-release/commit/e3cfcf9facf0f18ad6dcb612f0357e0e2bfd8d6b))
 * automatically update the changelog.md ([41562b7](https://github.com/thornbug90/test-release/commit/41562b798a2f132c22d3a580f4100f50237946c5))
 * dfsdfsfsdfsdfsdfdsfsdfsdfsf ([03b4113](https://github.com/thornbug90/test-release/commit/03b4113311ffad736e75c7531056a241bb827f7c))
 * install node_modules ([fc0e11e](https://github.com/thornbug90/test-release/commit/fc0e11ed006903793197f1aa7ef5ec483c84a681))
