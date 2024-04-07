@@ -26,8 +26,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'thornbug90'
-          git config --global user.email 'crazydev0409@gmail.com'
           git add CHANGELOG.md
           git commit -m "Update Changelog"
           git push
+          npm run semantic-release

@@ -10,6 +10,7 @@
 
 ### Features
 
+* add semantic-release ([596ab31](https://github.com/thornbug90/test-release/commit/596ab31c7c83a64b51238a9dda16b6a76b0687cf))
 * style-dictionary ([c668572](https://github.com/thornbug90/test-release/commit/c66857264d191814f087626e1aa37127b479d1af))
 * test manage tag ([61013e3](https://github.com/thornbug90/test-release/commit/61013e3a40473b83b3886fb9d63baaf38b704812))
 * update the README.md ([4d945b3](https://github.com/thornbug90/test-release/commit/4d945b301755edfde5776c588ada9dd6d1bf9d5a))
