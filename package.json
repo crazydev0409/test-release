@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node build-tokens.cjs",
     "release": "release-it",
-    "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog-auto": "rm -f CHANGELOG.md && conventional-changelog -p angular -i CHANGELOG.md -s",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,19 @@
     "style-dictionary": "^3.8.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
     "conventional-changelog-cli": "^4.1.0",
     "prettier": "^3.0.3",
     "release-it": "^17.1.1"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog"
+    ]
   }
 }
