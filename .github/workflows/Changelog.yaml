@@ -23,7 +23,10 @@ jobs:
 
       # - name: Generate Changelog
       #   run: npm run changelog
-
+      - name: Set up Git user
+        run: |
+          git config --global user.name "thornbug90"
+          git config --global user.email "crazydev0409@gmail.com"
       - name: Commit and push changes
         run: |
           npm run semantic-release
