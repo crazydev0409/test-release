@@ -29,6 +29,7 @@
 * abcdefghijklmnopqrstuvwxyz ([dbc7d8b](https://github.com/thornbug90/test-release/commit/dbc7d8ba26ffe2085cfc8563bf7374a2866937d5))
 * add semantic-release ([596ab31](https://github.com/thornbug90/test-release/commit/596ab31c7c83a64b51238a9dda16b6a76b0687cf))
 * hello world ([52c62b4](https://github.com/thornbug90/test-release/commit/52c62b4f0da8b18c03269dfb5577a8ed12c1f196))
+* sdlkfsldfjsdjfsdljfsdlkfjsdlfjlskdfj ([13a37d0](https://github.com/thornbug90/test-release/commit/13a37d0dfc4bc9f1485723fb226d66f3b46fde5d))
 * style-dictionary ([c668572](https://github.com/thornbug90/test-release/commit/c66857264d191814f087626e1aa37127b479d1af))
 * test manage tag ([61013e3](https://github.com/thornbug90/test-release/commit/61013e3a40473b83b3886fb9d63baaf38b704812))
 * update the README.md ([4d945b3](https://github.com/thornbug90/test-release/commit/4d945b301755edfde5776c588ada9dd6d1bf9d5a))
