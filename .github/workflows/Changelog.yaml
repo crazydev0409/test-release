@@ -3,7 +3,7 @@ name: Generate Changelog
 on:
   push:
     branches:
-      - main
+      - "**"
 
 jobs:
   changelog:
@@ -16,17 +16,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "20.x"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate Changelog
-        run: npm run changelog
-
+      # - name: Generate Changelog
+      #   run: npm run changelog
+      - name: Set up Git user
+        run: |
+          git config --global user.name "thornbug90"
+          git config --global user.email "crazydev0409@gmail.com"
       - name: Commit and push changes
         run: |
+          npm run semantic-release
           git add CHANGELOG.md
           git commit -m "Update Changelog"
           git push
-          npm run semantic-release
