@@ -21,8 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # - name: Generate Changelog
-      #   run: npm run changelog
       - name: Set up Git user
         run: |
           git config --global user.name "thornbug90"
@@ -30,6 +28,7 @@ jobs:
       - name: Commit and push changes
         run: |
           npm run semantic-release
-          git add CHANGELOG.md
-          git commit -m "Update Changelog"
-          git push
+
+        # # git add CHANGELOG.md
+        # git commit -m "Update Changelog"
+        # git push
