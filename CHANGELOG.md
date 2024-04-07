@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * remove lerna-changelod ([f20f74b](https://github.com/thornbug90/test-release/commit/f20f74ba113ed564b47ede38847a20ae5b6939b6))
+* update Readme.md ([d7df1ee](https://github.com/thornbug90/test-release/commit/d7df1ee806501ab26e43514afb9651d3be842d37))
 
 
 ### Features

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node build-tokens.cjs",
     "release": "release-it",
-    "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog-auto": "rm -f CHANGELOG.md && conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "repository": {
     "type": "git",
