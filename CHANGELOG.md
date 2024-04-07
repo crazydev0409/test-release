@@ -20,6 +20,7 @@
 * update Changelog.md ([2e9306b](https://github.com/thornbug90/test-release/commit/2e9306bded050347ef9f390666ffa8cb33f714fb))
 * update package ([03fdca8](https://github.com/thornbug90/test-release/commit/03fdca860b36c34c2533591368a73d7226562e9d))
 * update Readme.md ([d7df1ee](https://github.com/thornbug90/test-release/commit/d7df1ee806501ab26e43514afb9651d3be842d37))
+* update the changelog.md ([ea2ba63](https://github.com/thornbug90/test-release/commit/ea2ba63b0788edac6cafad46e2e68c8737460080))
 * update the package.json ([de54970](https://github.com/thornbug90/test-release/commit/de54970f0fadb0e96e748ba4b2cb9d26f0a088d7))
 
 
