@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * ??? ([8d78fde](https://github.com/thornbug90/test-release/commit/8d78fdee64b2862a8dff4e640643939bde874a63))
+* ?????????????? ([37be30f](https://github.com/thornbug90/test-release/commit/37be30f7cfe60c5d78f10d0ca7cd8636e6780a10))
 * aaaaaa ([cb2f3ef](https://github.com/thornbug90/test-release/commit/cb2f3ef30a08eb680aaeb371787f3e5206d65086))
 * automatically update the changelog.md ([41562b7](https://github.com/thornbug90/test-release/commit/41562b798a2f132c22d3a580f4100f50237946c5))
 * install node_modules ([fc0e11e](https://github.com/thornbug90/test-release/commit/fc0e11ed006903793197f1aa7ef5ec483c84a681))
@@ -12,6 +13,7 @@
 * update Changelog.md ([2e9306b](https://github.com/thornbug90/test-release/commit/2e9306bded050347ef9f390666ffa8cb33f714fb))
 * update package ([03fdca8](https://github.com/thornbug90/test-release/commit/03fdca860b36c34c2533591368a73d7226562e9d))
 * update Readme.md ([d7df1ee](https://github.com/thornbug90/test-release/commit/d7df1ee806501ab26e43514afb9651d3be842d37))
+* update the package.json ([de54970](https://github.com/thornbug90/test-release/commit/de54970f0fadb0e96e748ba4b2cb9d26f0a088d7))
 
 
 ### Features

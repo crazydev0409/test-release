@@ -26,7 +26,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          npm run semantic-release
           git add CHANGELOG.md
           git commit -m "Update Changelog"
           git push
-          npm run semantic-release
