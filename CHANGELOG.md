@@ -9,6 +9,7 @@
 * remove lerna-changelod ([f20f74b](https://github.com/thornbug90/test-release/commit/f20f74ba113ed564b47ede38847a20ae5b6939b6))
 * update ([cc12d52](https://github.com/thornbug90/test-release/commit/cc12d52c708ee0177cf5222d7f74625ad28de1fd))
 * update Changelog.md ([2e9306b](https://github.com/thornbug90/test-release/commit/2e9306bded050347ef9f390666ffa8cb33f714fb))
+* update package ([03fdca8](https://github.com/thornbug90/test-release/commit/03fdca860b36c34c2533591368a73d7226562e9d))
 * update Readme.md ([d7df1ee](https://github.com/thornbug90/test-release/commit/d7df1ee806501ab26e43514afb9651d3be842d37))
 
 
