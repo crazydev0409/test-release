@@ -8,6 +8,7 @@
 * aaaaaa ([cb2f3ef](https://github.com/thornbug90/test-release/commit/cb2f3ef30a08eb680aaeb371787f3e5206d65086))
 * abffjsdlgks ([7338d67](https://github.com/thornbug90/test-release/commit/7338d67d54dad0b6339cf8769dcd915efc5006b7))
 * automatically update the changelog.md ([41562b7](https://github.com/thornbug90/test-release/commit/41562b798a2f132c22d3a580f4100f50237946c5))
+* dfsdfsfsdfsdfsdfdsfsdfsdfsf ([03b4113](https://github.com/thornbug90/test-release/commit/03b4113311ffad736e75c7531056a241bb827f7c))
 * install node_modules ([fc0e11e](https://github.com/thornbug90/test-release/commit/fc0e11ed006903793197f1aa7ef5ec483c84a681))
 * remove lerna-changelod ([f20f74b](https://github.com/thornbug90/test-release/commit/f20f74ba113ed564b47ede38847a20ae5b6939b6))
 * update ([cc12d52](https://github.com/thornbug90/test-release/commit/cc12d52c708ee0177cf5222d7f74625ad28de1fd))

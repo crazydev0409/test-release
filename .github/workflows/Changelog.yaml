@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate Changelog
-        run: npm run changelog
+      # - name: Generate Changelog
+      #   run: npm run changelog
 
       - name: Commit and push changes
         run: |
