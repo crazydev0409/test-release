@@ -11,7 +11,7 @@
       "bump": "patch"
     },
     {
-      "type": "breaking change",
+      "type": "build",
       "section": "Build System",
       "bump": "major"
     },
