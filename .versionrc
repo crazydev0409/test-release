@@ -14,6 +14,36 @@
       "type": "breaking change",
       "section": "Build System",
       "bump": "major"
+    },
+    {
+      "type": "chore",
+      "section": "Chores",
+      "hidden": true
+    },
+    {
+      "type": "docs",
+      "section": "Documentation",
+      "hidden": true
+    },
+    {
+      "type": "style",
+      "section": "Styles",
+      "hidden": true
+    },
+    {
+      "type": "refactor",
+      "section": "Refactor",
+      "hidden": true
+    },
+    {
+      "type": "perf",
+      "section": "Performance",
+      "hidden": true
+    },
+    {
+      "type": "test",
+      "section": "Tests",
+      "hidden": true
     }
   ]
 }
