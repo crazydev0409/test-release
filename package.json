@@ -39,8 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "./husky/_/pre-push",
-      "pre-commit": "npm run changelog"
+      "pre-push": "npm run changelog"
     }
   }
 }
