@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/thornbug90/test-release/compare/v3.2.0...v3.3.0) (2024-04-08)
+
+
+### Features
+
+* create workflows ([24f1c71](https://github.com/thornbug90/test-release/commit/24f1c7127f91f19b0631e1b761b9bbb6d25519a8))
+
+
+### Bug Fixes
+
+* update the readme.md file ([d228431](https://github.com/thornbug90/test-release/commit/d228431d27e45d16042b01a7eb0c6781972da12c))
+
 ## [3.2.0](https://github.com/thornbug90/test-release/compare/v3.1.0...v3.2.0) (2024-04-08)
 
 
