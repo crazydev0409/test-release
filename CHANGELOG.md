@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/thornbug90/test-release/compare/v1.4.1...v1.4.2) (2024-04-08)
+
+
+### Build System
+
+* make a change BREAKING CHANGE: this change introduces a new major version ([cd5dc90](https://github.com/thornbug90/test-release/commit/cd5dc9018c7231848c66ae58555497a2f3831c6e))
+
 ### [1.4.1](https://github.com/thornbug90/test-release/compare/v1.4.0...v1.4.1) (2024-04-08)
 
 ## [1.4.0](https://github.com/thornbug90/test-release/compare/v1.3.3...v1.4.0) (2024-04-08)
