@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node build-tokens.cjs",
     "release": "standard-version",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "repository": {
     "type": "git",

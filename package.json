@@ -1,12 +1,11 @@
 {
   "name": "sd-file-splitting-example",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "node build-tokens.cjs",
     "release": "standard-version",
-    "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "semantic-release": "semantic-release"
   },
   "repository": {
