@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/thornbug90/test-release/compare/v2.0.8...v2.1.0) (2024-04-08)
+
+
+### Features
+
+* update the package.json ([7419b52](https://github.com/thornbug90/test-release/commit/7419b52baa90fb379e4acfc3d53c3d589fe80075))
+
 ### [2.0.8](https://github.com/thornbug90/test-release/compare/v2.0.7...v2.0.8) (2024-04-08)
 
 
