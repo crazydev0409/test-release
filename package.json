@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node build-tokens.cjs",
     "commit": "git-cz",
-    "changelog": "standard-version && conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && standard-version"
   },
   "repository": {
     "type": "git",
