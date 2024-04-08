@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/thornbug90/test-release/compare/v3.0.0...v3.1.0) (2024-04-08)
+
+
+### Features
+
+* dggwer ([3f217f7](https://github.com/thornbug90/test-release/commit/3f217f714729b4cb67fdf08f215b154ba766b5f8))
+* hohoho ([68db4a1](https://github.com/thornbug90/test-release/commit/68db4a19c4e91d1eb60f9fed6b59a62b38343542))
+* make the husky env ([f8b42dd](https://github.com/thornbug90/test-release/commit/f8b42ddee5a5a43e2e260ff0da22b0180a4d0a3b))
+
+
+### Bug Fixes
+
+* dfsdfdsfsdf ([a18758b](https://github.com/thornbug90/test-release/commit/a18758bdb37d614e463ec4f152d6a9bdd95bacaa))
+* dvvusfiwuerw ([a4f66a6](https://github.com/thornbug90/test-release/commit/a4f66a60d5d29984939bfd1bd96af2997cb0e604))
+* sdfsdfsdf ([d564081](https://github.com/thornbug90/test-release/commit/d564081bf58997e1da60aa6f06231818cf05dee6))
+* twrtgege ([b1afa12](https://github.com/thornbug90/test-release/commit/b1afa129540d7da793ddc768aa75c8004fa883d1))
+
 ## [3.0.0](https://github.com/thornbug90/test-release/compare/v1.1.2...v3.0.0) (2024-04-08)
 
 
