@@ -1,3 +1,2 @@
 #!/bin/sh
-console.log("pre-push")
 npm run changelog
