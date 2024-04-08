@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/thornbug90/test-release/compare/v1.2.3...v1.3.0) (2024-04-08)
+
+
+### Features
+
+* delete the package.json ([8ab3246](https://github.com/thornbug90/test-release/commit/8ab32462ed89fced6e85011355973db0d63394af))
+
 ### [1.2.3](https://github.com/thornbug90/test-release/compare/v1.2.2...v1.2.3) (2024-04-08)
 
 ### [1.2.2](https://github.com/thornbug90/test-release/compare/v1.2.1...v1.2.2) (2024-04-08)
