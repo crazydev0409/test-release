@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/thornbug90/test-release/compare/v1.4.3...v2.0.0) (2024-04-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **hey are you there?:** hehe...
+
+### Features
+
+* gogo ([1c623cc](https://github.com/thornbug90/test-release/commit/1c623cca1f8a98dd4ba112878bb141ad1bd86c7f))
+
+
+### build
+
+* **hey are you there?:** ok Don't say hello ([086271a](https://github.com/thornbug90/test-release/commit/086271a8461b4ef5e07576b737b388ed5963a8e6))
+
 ### [1.4.3](https://github.com/thornbug90/test-release/compare/v1.4.2...v1.4.3) (2024-04-08)
 
 
