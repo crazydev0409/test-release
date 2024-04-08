@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "npm install --save-dev && npx commitizen init cz-conventional-changelog --save-dev --save-exact",
     "build": "node build-tokens.cjs",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && standard-version"
