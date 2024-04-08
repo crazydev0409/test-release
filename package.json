@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node build-tokens.cjs",
+    "commit": "git-cz",
     "changelog-auto": "conventional-changelog -p angular -i CHANGELOG.md -s && standard-version"
   },
   "repository": {
@@ -16,7 +17,9 @@
   "license": "ISC",
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.15.2",
+    "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^4.1.0",
+    "cz-conventional-changelog": "^3.3.0",
     "glob": "^10.3.12",
     "prettier": "^3.0.3",
     "standard-version": "^9.5.0",
@@ -26,5 +29,10 @@
     "branches": [
       "main"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
