@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/thornbug90/test-release/compare/v2.0.0...v2.0.1) (2024-04-08)
+
+
+### Build System
+
+* **look at this:** the version rc is changed ([2de4c80](https://github.com/thornbug90/test-release/commit/2de4c80f11f8796a8fa84364aa7bba1d371c6db2))
+
 ## [2.0.0](https://github.com/thornbug90/test-release/compare/v1.4.3...v2.0.0) (2024-04-08)
 
 
