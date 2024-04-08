@@ -2,16 +2,17 @@
   "types": [
     {
       "type": "feat",
-      "section": "Features"
+      "section": "Features",
+      "bump": "minor"
     },
     {
       "type": "fix",
-      "section": "Bug Fixes"
+      "section": "Bug Fixes",
+      "bump": "patch"
     },
     {
       "type": "build",
       "section": "Build System",
-      "hidden": false,
       "bump": "major"
     }
   ]
