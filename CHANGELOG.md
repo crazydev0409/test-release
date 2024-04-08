@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/thornbug90/test-release/compare/v1.2.1...v1.2.2) (2024-04-08)
+
+
+### Bug Fixes
+
+* absjjgwgj ([269d641](https://github.com/thornbug90/test-release/commit/269d641a4153fb633ac2d8db9cc9c8c2ec1a9ef4))
+* dfwererwer ([caaa40a](https://github.com/thornbug90/test-release/commit/caaa40abbb9ecc50a6aa277d79de015ac5c2cb6f))
+* remove the yaml file ([d90cd62](https://github.com/thornbug90/test-release/commit/d90cd62593d6bef2d6d20571479e35a8bd943f6c))
+* what's the point? ([db8ba43](https://github.com/thornbug90/test-release/commit/db8ba437643d542e21c75f9e4c1a16344865c219))
+
 # [1.2.0](https://github.com/thornbug90/test-release/compare/v1.2.1...v1.2.0) (2024-04-08)
 
 
