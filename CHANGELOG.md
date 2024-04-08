@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/thornbug90/test-release/compare/v1.2.1...v1.2.0) (2024-04-08)
+
+
+### Bug Fixes
+
+* absjjgwgj ([269d641](https://github.com/thornbug90/test-release/commit/269d641a4153fb633ac2d8db9cc9c8c2ec1a9ef4))
+* what's the point? ([db8ba43](https://github.com/thornbug90/test-release/commit/db8ba437643d542e21c75f9e4c1a16344865c219))
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
