@@ -22,6 +22,8 @@
 * update Readme.md ([d7df1ee](https://github.com/thornbug90/test-release/commit/d7df1ee806501ab26e43514afb9651d3be842d37))
 * update the changelog.md ([ea2ba63](https://github.com/thornbug90/test-release/commit/ea2ba63b0788edac6cafad46e2e68c8737460080))
 * update the package.json ([de54970](https://github.com/thornbug90/test-release/commit/de54970f0fadb0e96e748ba4b2cb9d26f0a088d7))
+* upgrade the config file ([7138f54](https://github.com/thornbug90/test-release/commit/7138f54b370fee2194680825254a4dc2d71afde9))
+* upgrade the yarml file ([ef47dcb](https://github.com/thornbug90/test-release/commit/ef47dcb8f0b86a1e50da8c336d53ccbf32d632be))
 
 
 ### Features
